@@ -45,5 +45,5 @@ app.use(errorHandler);
 
 
 app.listen(process.env.PORT,()=>{
-    console.log(`Server is running at ${Port} `)
+    console.log("Server is running");
 })
